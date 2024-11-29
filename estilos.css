@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: black;
 }
@@ -72,6 +75,7 @@ body{
 	display: inline-block;
 	text-align:center;
     margin-bottom: 3px;
+    
 }
 .menu li a:hover{
     text-decoration-line: underline;
@@ -94,7 +98,7 @@ h2{
     margin-bottom: 2;
 }
 body{
-    background-color: black;
+    background-color: whitesmoke;
 }
 .gc{
     height: 400px;
@@ -180,10 +184,11 @@ p{
 .a1 h2{
     color: black;
 }
-.img2 div{
-    height: 900px;
+.img2{
+    height: 400x;
     width: 100%;
-    background-image: url=('https://images.unsplash.com/photo-1569470451072-68314f596aec?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%')
+    background-color: black;
+    margin-top: 0px;
 }
 .img2 h1{
     padding: 30px;
@@ -193,7 +198,7 @@ p{
     background-color: whitesmoke;
 }
 .amm{
-    height: 400px;
+    height: 420px;
     background-color: whitesmoke;
     width: 100%;
     overflow: auto;
@@ -208,7 +213,7 @@ p{
     background-color: black;
 }
 .amimg img{
-    height: 200px;
+    height: 350px;
     width: 60%;
     display: flex;
     margin: 0 auto;
@@ -218,4 +223,30 @@ p{
     overflow: hidden;
     justify-content: center;
     padding-top: 30px;
+    padding-bottom: 30px;
+}
+.amigos li {
+    font-family: "courier new", monospace;
+    padding: 9px;
+    font-size: 40px;
+    padding-left: 25%;
+    list-style-type: none;
+    
+}
+.amigos li a{
+    text-decoration: none;
+    font-family: "courier new", monospace;
+    margin-right: 12px;
+    color: black;
+
+}
+.amigos li a:hover{
+    background-color: black;
+    opacity: 50%;
+    color: whitesmoke;
+
+}
+.hobb{
+    background-color: whitesmoke;
+    height: 
 }
